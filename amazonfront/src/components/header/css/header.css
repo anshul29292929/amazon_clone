@@ -1,0 +1,32 @@
+.input-menu {
+    min-width: 35% /* set maximum width to 50% of the containing element */
+}
+
+.menu-left {
+    position: relative;
+    animation: slideRight 300ms forwards; /* Animation duration is 2 seconds */
+}
+
+.menu-2 a{
+    font-size: 16px;
+}
+
+@keyframes slideRight {
+    0% {
+      left: -500px; /* Start position off the screen */
+    }
+    100% {
+      left: 0px; /* End position 200px from the left */
+    }
+}
+
+.scrollable {
+    overflow-y: auto; /* This will add a vertical scrollbar when needed */
+}
+
+.nav-menu-col{
+    position: relative;
+    margin-left: auto;
+    color: gray;
+}
+
